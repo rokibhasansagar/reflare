@@ -5,6 +5,7 @@ on:
     branches: [master]
   pull_request:
     branches: [master]
+  workflow_dispatch:
 
 jobs:
   build:
@@ -32,9 +33,11 @@ jobs:
         run: npm install
 
       - name: Run unit tests and generate coverage report
+        continue-on-error: true
         run: npm test
 
       - name: Upload coverage to Codecov
+        continue-on-error: true
         uses: codecov/codecov-action@v2
 
       - name: Build

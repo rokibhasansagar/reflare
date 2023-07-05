@@ -11,7 +11,7 @@
       "jest",
       "@cloudflare/workers-types"
     ],
-    "allowJs": false,
+    "allowJs": true,
     "alwaysStrict": true,
     "strict": true,
     "preserveConstEnums": true,
@@ -33,7 +33,6 @@
     "types/**/*.ts"
   ],
   "exclude": [
-    "node_modules/",
-    "dist/"
+    "node_modules/"
   ]
 }

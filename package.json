@@ -1,6 +1,6 @@
 {
   "name": "reflare",
-  "version": "1.1.0",
+  "version": "1.1.5",
   "description": "Lightweight and scalable reverse proxy and load balancing library built for Cloudflare Workers",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xiaoyang-sde/reflare.git"
+    "url": "git+https://github.com/rokibhasansagar/reflare.git"
   },
   "keywords": [
     "serverless",
@@ -27,9 +27,9 @@
   "author": "Xiaoyang Liu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xiaoyang-sde/reflare/issues"
+    "url": "https://github.com/rokibhasansagar/reflare/issues"
   },
-  "homepage": "https://reflare.js.org",
+  "homepage": "https://github.com/rokibhasansagar/reflare",
   "devDependencies": {
     "@cloudflare/workers-types": "^3.16.0",
     "@types/jest": "^27.5.0",

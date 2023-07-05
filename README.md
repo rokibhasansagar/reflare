@@ -1,17 +1,11 @@
-![Header](https://raw.githubusercontent.com/xiaoyang-sde/reflare/master/.github/img/header.jpg)
+![Header](https://raw.githubusercontent.com/rokibhasansagar/reflare/master/.github/img/header.jpg)
 
 <div align="center">
 
-[![GitHub Actions](https://img.shields.io/github/workflow/status/xiaoyang-sde/reflare/Node.js%20Test%20and%20Build?style=for-the-badge&logo=github)](https://github.com/xiaoyang-sde/reflare/actions)
-[![Codecov Coverage](https://img.shields.io/codecov/c/github/xiaoyang-sde/reflare?style=for-the-badge&logo=codecov)](https://app.codecov.io/gh/xiaoyang-sde/reflare/)
 [![Package Version](https://img.shields.io/npm/v/reflare?style=for-the-badge&logo=npm&color=red)](https://www.npmjs.com/package/reflare)
 [![Download Statistics](https://img.shields.io/npm/dt/reflare?style=for-the-badge&logo=npm&color=blue)](https://www.npmjs.com/package/reflare)
 
-[![forthebadge](https://forthebadge.com/images/badges/made-with-typescript.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/ctrl-c-ctrl-v.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-
-[📦 Releases](https://github.com/xiaoyang-sde/reflare/releases) |
+[📦 Releases](https://github.com/rokibhasansagar/reflare/releases) |
 [📔 Examples](#-examples) |
 [⚙️ Route Definition](#-route-definition) |
 [☕ Buy Me a Coffee](https://www.buymeacoffee.com/xiaoyang.liu)
@@ -36,10 +30,10 @@ npm install -g wrangler
 wrangler login
 ```
 
-Generate a new project from [reflare-template](https://github.com/xiaoyang-sde/reflare-template) and install the dependencies.
+Generate a new project from [reflare-cdn-template](https://github.com/rokibhasansagar/reflare-cdn-template) and install the dependencies.
 
 ```console
-npm init cloudflare reflare-app https://github.com/xiaoyang-sde/reflare-template
+npm init cloudflare reflare-app https://github.com/rokibhasansagar/reflare-cdn-template
 cd reflare-app
 npm install
 ```
@@ -428,4 +422,4 @@ wrangler kv:key put --binding=[namespace] 'route-list' '[{"path":"/*","upstream"
 - **Report bugs**: Create an issue with the **Bug report** template.
 - **Add new feature or fix bugs**: Fork this repository, edit code, and send a pull request.
 
-[![Contributors](https://contrib.rocks/image?repo=xiaoyang-sde/reflare)](https://github.com/xiaoyang-sde/reflare/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=rokibhasansagar/reflare)](https://github.com/rokibhasansagar/reflare/graphs/contributors)
